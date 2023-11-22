@@ -1,5 +1,5 @@
 const { chromium } = require('playwright');
-// 编辑重新触发
+// 编辑重新执行action触发
 (async () => {
   const browser = await chromium.launch({
     headless: false
